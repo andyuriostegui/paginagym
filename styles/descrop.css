@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Chakra+Petch:wght@300&family=Open+Sans:ital@1&family=Roboto+Mono:wght@100;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: bo;
+}
+body
+{
+  font-family:'Courier New', Courier, monospace;
+  background-color:#a393eb;;
+}
+header
+{
+  background-color:#f5c7f7;
+  text-align: center;
+  padding: 25px 0;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  margin: 0 30px;
+  padding: 5px 15px;
+}
+nav a:hover
+{
+  background-color: violet;
+  color: black;
+}
+h2{
+    margin: 40px;
+    color:black;
+    font-size: 30px;
+}
+
+ul{
+    margin: 20px;
+    color:black;
+    padding: 30px;
+    font-size: 20px;
+}
+.imagen1 {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin-top: -600px; /* Ajusta el valor negativo para mover la imagen hacia arriba */
+    margin-left: 350px;
+}
+
+.imagen1 img {
+    width: 300px;
+}
+h3{
+    margin-top: 400px;
+    font-size: 30px;
+}
+p{
+    margin: 30px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.imgane2 {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin-top: -500px; /* Ajusta el valor negativo para mover la imagen hacia arriba */
+    margin-left: 1000px;
+}
+
+.imgane2 img {
+    width: 500px; /* Ajusta el ancho de la imagen según tus preferencias */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+.imagen3 img {
+    width: 500px; /* Ajusta el ancho de la imagen según tus preferencias */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    margin-left: 200px;
+    margin-top: -200px;
+}
+.imagen3 p{
+    font-size: 40PX;
+}
+
+.redes img
+{
+width: 200px;
+margin-left: 1200px;
+margin-top: 100px;
+}

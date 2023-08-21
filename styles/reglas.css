@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Chakra+Petch:wght@300&family=Open+Sans:ital@1&family=Roboto+Mono:wght@100;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: bo;
+}
+body
+{
+  font-family:'Courier New', Courier, monospace;
+  background-color:#a393eb;;
+}
+header
+{
+  background-color:#f5c7f7;
+  text-align: center;
+  padding: 25px 0;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  margin: 0 30px;
+  padding: 5px 15px;
+}
+nav a:hover
+{
+  background-color: violet;
+  color: black;
+}
+.reglas-box {
+    background-color: #f7f7f7; /* Color de fondo */
+    border-radius: 10px;
+    padding: 20px; /* Agrega espacio interno */
+    text-align: left; /* Alineación del texto */
+    margin: 20px; /* Margen exterior */
+}
+
+.reglas-list {
+    list-style-type: disc; /* Tipo de viñetas */
+    padding-left: 20px; /* Espacio interno de la lista */
+}
+.reglas-box2
+{
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 600px;
+    margin: 30px;
+}
+.reglas-list2 {
+    list-style-type: disc; /* Tipo de viñetas */
+    padding-left: 20px; /* Espacio interno de la lista */
+}
+h2
+{
+    margin-left: 20px;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Chakra+Petch:wght@300&family=Open+Sans:ital@1&family=Roboto+Mono:wght@100;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: bo;
+}
+body
+{
+  font-family:'Courier New', Courier, monospace;
+  background-color:black;;
+}
+header
+{
+  background-color:blueviolet;
+  text-align: center;
+  padding: 25px 0;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  margin: 0 30px;
+  padding: 5px 15px;
+}
+nav a:hover
+{
+  background-color: violet;
+  color: black;
+}
+/* Estilos de la sección de promoción */
+.promotion {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.promotion-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn-promo {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Estilos de la otra promoción */
+.another-promotion {
+    background-color: #e3e3e3;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.another-promotion-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+ 

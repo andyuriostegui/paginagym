@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+   background-color: #0d0b0b;
+    margin: 0;
+    padding: 0;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #962071;
+    color:blueviolet;
+    padding: 10px;
+    text-align: center;
+    -webkit-box-shadow: 13px 70px 115px 15px rgba(192,116,227,0.6);
+    -moz-box-shadow: 13px 70px 115px 15px rgba(192,116,227,0.6);
+    box-shadow: 13px 70px 115px 15px rgba(192,116,227,0.6);
+margin-bottom: 50px;
+
+}
+
+nav .right {
+    margin-left: auto;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav .right2
+{
+    margin-left: 750px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0d0b0b;
+    color:blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para los elementos de la sección */
+h1{
+    font-size: 24px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos adicionales */
+a {
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #fdb44b;
+}
+  
+  .imagen img {
+    width:500px; /* Ancho de la imagen */
+    height: 600px; /* Altura de la imagen */
+    margin: 10px; /* Margen entre las imágenes */
+    display: inline-block; /* Muestra las imágenes en línea */
+  }
+  p{
+    color: white;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente línea si no caben en el ancho disponible */
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    width: 400px;
+}
+  h2{
+    color:  whitesmoke;
+  }

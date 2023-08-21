@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Chakra+Petch:wght@300&family=Open+Sans:ital@1&family=Roboto+Mono:wght@100;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: bo;
+}
+body
+{
+  font-family:'Courier New', Courier, monospace;
+  background-color:#a393eb;;
+}
+header
+{
+  background-color:#f5c7f7;
+  text-align: center;
+  padding: 25px 0;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  margin: 0 30px;
+  padding: 5px 15px;
+}
+nav a:hover
+{
+  background-color: violet;
+  color: black;
+}
+h2{
+    margin: 30px;
+}
+.exercise-box
+{
+margin-left: 100px;
+}
+.exercise-list
+{
+    margin: 20px;
+}
+p{
+    margin-left: 400px;
+}
+h3{
+    margin: 100px;
+}
+.image-box2 img {
+    width: 400px; /* Ajusta el ancho según prefieras */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    margin-left: 500px;
+}
+
+.exercise-box2
+{
+margin-left: 100px;
+
+}
+.exercise-list2
+{
+    margin: 20px;
+}
+.parrafo p{ 
+    margin:30px
+}
+.video-links
+{
+    margin-top: 20px;
+    margin: 40px;
+    margin-left: 300px;
+}
+.video-links li
+{
+    margin-top: 5px;
+    margin: 4px;
+    margin-left: 400px;
+}

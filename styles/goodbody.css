@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Chakra+Petch:wght@300&family=Open+Sans:ital@1&family=Roboto+Mono:wght@100;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: bo;
+}
+body
+{
+  font-family:'Courier New', Courier, monospace;
+  background-color:#a393eb;;
+}
+header
+{
+  background-color:#f5c7f7;
+  text-align: center;
+  padding: 25px 0;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  margin: 0 30px;
+  padding: 5px 15px;
+}
+nav a:hover
+{
+  background-color: violet;
+  color: black;
+}
+
+
+.banner p{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -400px;
+  margin-left: 10px;
+}
+.banner h1{
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  margin-left: 50px;
+}
+.banner 
+{
+  background-image: url(/images/WhatsApp\ Image\ 2023-07-19\ at\ 2.45.21\ AM.jpeg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imagen {
+  text-align: center;
+  margin-top: -300px; /* Ajusta el valor según sea necesario */
+  margin-left: -1200px;
+}
+.imagen img {
+  width: 200px; /* Ajusta el tamaño de la imagen */
+}
+
+.imagen2 {
+  text-align: center;
+  margin-top: -300px; /* Ajusta el valor según sea necesario */
+  margin-left: 1100px;
+}
+.imagen2 img {
+  width: 300px; /* Ajusta el tamaño de la imagen */
+}
+
+.boton-container {
+  display: flex; /* Utilizamos flexbox para alinear horizontalmente */
+  justify-content: space-around; /* Distribuye el espacio entre los botones */
+  margin: 150px 0; /* Ajusta el margen superior e inferior según sea necesario */
+}
+
+.boton {
+  background-color:#27296d;; /* Azul turquesa */
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor:ew-resize;
+  margin-left: 250px;
+}
+.imagen-user {
+  width: 100px; /* Cambia el tamaño según tus preferencias */
+  height: 150px; /* Cambia el tamaño según tus preferencias */
+  margin-top: 40px;
+}
+
+.imagen-user img {
+  width: 400%; /* La imagen ocupará todo el ancho del div */
+  margin-left: -70px;
+  margin-top: -6px;
+}
+nav ul {
+  list-style: none; /* Elimina los marcadores de lista */
+  padding: 0; /* Elimina el padding predeterminado de la lista */
+  margin: 0; /* Elimina el margen predeterminado de la lista */
+  margin-top: -70px;
+}
+
+nav li {
+  margin: 10px 0; /* Añade un espacio entre cada enlace */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Cambia el color del enlace según tus preferencias */
+  margin-top: -100px;
+}
+
+.imagen5 {
+  text-align: center; /* Centra la imagen horizontalmente */
+  margin-top: -400px; /* Ajusta el valor según sea necesario para que la imagen suba */
+}
+
+.imagen5 img {
+  width: 600px; /* Ajusta el ancho según tus preferencias */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  margin-left: -600px;
+}
+
+.imagen6 img {
+  width: 400px; /* Ajusta el ancho según tus preferencias */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  margin-top: -50px;
+  margin-left: 850px;
+}
+.texto-bienvenida {
+  background-color: #09090a;
+  padding: 30px; /* Agrega espacio interno para que los párrafos no estén pegados al borde */
+  border-radius: 50px; /* Añade bordes redondeados */
+  color: white; /* Cambia el color del texto para que se vea bien en el fondo */
+  text-align: center; /* Centra el texto horizontalmente */
+  margin-top:60px;
+}
+.texto-bienvenida p{
+  font-size: 30px;
+}
+.redes img
+{
+width: 200px;
+}
+
+

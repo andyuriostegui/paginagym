@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+   background-color: #0d0b0b;
+    margin: 0;
+    padding: 0;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #962071;
+    color:blueviolet;
+    padding: 25px;
+    text-align: center;
+    -webkit-box-shadow: 13px 70px 115px 15px rgba(192,116,227,0.6);
+    -moz-box-shadow: 13px 70px 115px 15px rgba(192,116,227,0.6);
+    box-shadow: 13px 70px 115px 15px rgba(192,116,227,0.6);
+margin-bottom: 50px;
+
+}
+
+nav .right {
+    margin-left: auto;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav .right2
+{
+    margin-left: 850px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0d0b0b;
+    color:blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para los elementos de la sección */
+h1{
+    font-size: 24px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos adicionales */
+a {
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #fdb44b;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.routine img
+{
+width: 300px;
+}
+
+h2 {
+    font-size: 24px;
+    color:aliceblue;
+    margin-bottom: 10px;
+}
+
+p {
+    color:white;
+    line-height: 1.5;
+}
+.routine li {
+    color: white; /* Cambia el color del texto de los elementos de la lista a blanco */
+    margin-bottom: 5px;
+}
+.routine h3 {
+    color: white; /* Cambia el color del título de la rutina a blanco */
+}
+
+.routine p {
+    color: white; /* Cambia el color del texto del párrafo a blanco */
+    margin-top: 5px;
+}

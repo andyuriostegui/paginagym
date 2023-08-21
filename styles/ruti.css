@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Chakra+Petch:wght@300&family=Open+Sans:ital@1&family=Roboto+Mono:wght@100;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: bo;
+}
+body
+{
+  font-family:'Courier New', Courier, monospace;
+  background-color:#a393eb;;
+}
+header
+{
+  background-color:#f5c7f7;
+  text-align: center;
+  padding: 25px 0;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  margin: 0 30px;
+  padding: 5px 15px;
+}
+nav a:hover
+{
+  background-color: violet;
+  color: black;
+}
+h2{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+h3{
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+.boton {
+    display: inline-block;
+    background-color: #00CED1; /* Azul turquesa */
+    color: white;
+    padding: 15px 30px;
+    margin: 20px;
+    border-radius: 50px; /* Para hacerlos ovalados */
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 400px;
+    margin-top: 200px;
+  }
+  .imagen_pro {
+    text-align: right; /* Alinea la imagen a la derecha */
+    margin-top: -50px; /* Ajusta el valor según sea necesario para la posición vertical */
+}
+
+.imagen_pro img {
+    width: 400px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.imagen_nova {
+    text-align:left; /* Alinea la imagen a la derecha */
+    margin-top: -500px; /* Ajusta el valor según sea necesario para la posición vertical */
+}
+
+.imagen_nova img {
+    width: 400px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+ 
+  
+  
+  
